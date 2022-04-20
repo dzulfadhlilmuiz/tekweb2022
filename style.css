@@ -55,7 +55,7 @@ header ul li a:hover{
 .banner{
     height: 80vh;
     border: 1px solid;
-    background-image: url('../project\ website/begron.jpg');
+    background-image: url('begron.jpg');
     background-size: cover;
     position: relative;
     display: flex;
@@ -121,7 +121,7 @@ section h3{
 }
 .biodata{
     height: 80vh;
-    background-image: url('../project\ website/begron.jpg');
+    background-image: url('begron.jpg');
     background-size: cover;
     color: #fff;   
 }   
@@ -143,7 +143,7 @@ section h3{
 }
 .hobby{
     height: 1500px;
-    background-image: url('../project\ website/begron.jpg');
+    background-image: url('begron.jpg');
     background-size: cover;
     color: #fff;   
 }
@@ -169,7 +169,7 @@ section h3{
     margin-left: 70px;
 }
 .contact{
-    background-image: url('../project\ website/begron.jpg');
+    background-image: url('begron.jpg');
     height: 100vh;
     color: #fff;
     background-size: cover;
