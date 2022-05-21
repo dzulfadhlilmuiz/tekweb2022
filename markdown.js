@@ -7,9 +7,13 @@ let app = Vue.createApp({
     },
     methods: {
       getArticleData() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const fileName = urlParams.get('markdown');
+        var converter = new showdown.Converter();
         axios
           .get(
-            "https://raw.githubusercontent.com/dzulfadhlilmuiz/tekweb2022/main/markdown.html"
+            "https://raw.githubusercontent.com/dzulfadhlilmuiz/tekweb2022/main/" + fileName
           )
           .then((res) => {
             this.articles = res.data;
