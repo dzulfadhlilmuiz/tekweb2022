@@ -1,15 +1,18 @@
 [
     {
+        "id" : "1",
       "judul" : "Mobile Legends",
       "konten" : "“MOBA kok analog?” Pasti kalimat ini sering didengar oleh para pemain esports Mobile Legends di Indonesia. Seiring dengan maraknya migrasi para game developer dari platform PC ke mobile, tak heran jika permainan Mobile Legends ini menjadi alternatif yang menarik bagi kamu yang ingin bermain MOBA secara praktis dan mudah.",
-      "author" : "Boi Hutagaol",
+      "author" : "Boi Hutagaol"
     },
     {
+        "id" : "2",
         "judul" :"PUBG Mobile",
         "konten" :"Sebagian dari kalian mungkin sudah sempat memainkan apa itu PUBG Mobile. Gim yang merupakan pesaing dari Free Fire ini tengah berada di puncak kesuksesannya untuk kategori battle royale, tidak hanya di Indonesia, melainkan dunia.",
         "author" : "Yudi Aulia Firmansah"
     },
     {
+        "id" : "3",
         "judul" :"futsal",
         "konten" :"Pada kesempatan kali ini pengajar.co.id akan membuat artikel mengenai Futsal : Pengertian, Peraturan, Teknik, Sejarah, Posisi dan Fungsi, yuk sama-sama kita bahas dibawah ini :",
         "author" :"Pengajar.Co.ID"
