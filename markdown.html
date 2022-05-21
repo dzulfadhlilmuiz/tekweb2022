@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- VueJS -->
+  <script src="https://unpkg.com/vue@3"></script>
+
+  <!-- Showdown -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+  
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container my-4 mx-3" id="app">
         <div v-html="markdown"></div>
     </div>
+
+    <script src="markdown.js"></script>
+
 </body>
 </html>
