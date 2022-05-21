@@ -142,7 +142,7 @@ section h3{
     margin: 50px;
 }
 .hobby{
-    height: 1500px;
+    height: 100vh;
     background-image: url('begron.jpg');
     background-size: cover;
     color: #fff;   
@@ -155,22 +155,118 @@ section h3{
     margin: 10px; 
     margin-left: 70px;
 }
-.hobi li{
-    margin-left: 70px;
-    margin-bottom: -25px;
+.author{
+    margin-bottom: 30px;
 }
-.daftar{
-    float: left;
-    width: 390px;
-    height: 230px;
-    margin-left: 70px;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.isi{
-    margin-left: 70px;
+
+body .artikel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
 }
+
+body .artikel .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+body .artikel .card .kotak {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+body .artikel .card .kotak:hover {
+  transform: translateY(-50px);
+}
+
+body .artikel .card .kotak:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+body .artikel .card .kotak .konten {
+  padding: 20px;
+  text-align: center;
+}
+
+body .artikel .card .kotak .konten h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .artikel .card .kotak .konten h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .artikel .card .kotak .konten p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+body .artikel .card .kotak .konten a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+body .artikel .card .kotak .konten a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
 .contact{
     background-image: url('begron.jpg');
-    height: 100vh;
+    height: 125vh;
     color: #fff;
     background-size: cover;
 }
@@ -183,11 +279,3 @@ section h3{
 .box .col-4 h4{
     margin:20px 0;
 }
-
-
-
-
-
-
-
-
