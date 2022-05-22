@@ -16,6 +16,8 @@ let app = Vue.createApp({
             "https://raw.githubusercontent.com/dzulfadhlilmuiz/tekweb2022/main/" + fileName
           )
           .then((res) => {
+            var html = converter.makeHtml(res.data);           
+                    this.markdown = html;
             this.articles = res.data;
             console.log(res.data)
           })
